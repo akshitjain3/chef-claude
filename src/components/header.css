@@ -1,0 +1,46 @@
+.logo {
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 16px var(--light-bg));
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    height: clamp(4rem, 3.142857142857143rem + 4.285714285714286vw, 7rem);
+    width: 100%;
+    background-color: var(--dark2);
+    gap: 20px;
+  }
+  
+  .header > img {
+    height: 2.8rem;
+    height: clamp(2.8rem, 2.457142857142857rem + 1.7142857142857144vw, 4rem);
+  }
+  
+  .header > h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 0.9714285714285714rem + 1.1428571428571428vw, 2rem);
+    color: var(--light-bg);
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  /* > 640px */
+@media (width >= 640){
+    
+}
+
+  /* > 960px */
+
+  @media (width >= 960){
+    
+}

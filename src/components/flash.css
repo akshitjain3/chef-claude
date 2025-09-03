@@ -1,0 +1,19 @@
+.flash-messages {
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+    transform: translateX(0%);
+}
+  
+.offscreen-right {
+    transform: translateX(100vw);
+}
+  
+.offscreen-left {
+    transform: translateX(-100vw);
+}
+
+.no-transition {
+    transition: none !important;
+}
+  

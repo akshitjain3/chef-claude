@@ -1,0 +1,50 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* variables */
+  --light-bg: #fdf0d5;
+  --dark1: #003049;
+  --dark2: #c1121f;
+  --transition-duration: 300ms;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/barlow-v12-latin-regular.woff2') format('woff2');
+}
+
+/* barlow-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/barlow-v12-latin-500.woff2') format('woff2');
+}
+
+/* barlow-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/barlow-v12-latin-700.woff2') format('woff2');
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  height: 100%;
+  justify-content: center;
+}

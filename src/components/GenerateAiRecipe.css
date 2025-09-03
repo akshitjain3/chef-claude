@@ -1,0 +1,79 @@
+.rawRecipe {
+    margin-bottom: 2rem;
+}
+
+.generatedRecipe {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    border: 0;
+    box-shadow:
+        0 0 0 20px #fdf0d5,  
+        8px 8px 16px rgba(0, 0, 0, 0.4), 
+        -8px -8px 16px rgba(0, 0, 0, 0.4),        
+        12px 12px 24px rgba(0, 0, 0, 0.2),       
+        -12px -12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.generatedRecipe > h3 {
+    margin: 1.5rem 0;
+    text-align: center;
+    color: var(--dark1);
+    font-family: 'Barlow';
+    font-weight: 500;
+}
+
+.generatedRecipeTitle {
+    background-color: #c1121f;
+    border-radius: 5px;
+    border-radius: clamp(0.313rem, 0.223rem + 0.446vw, 0.625rem);
+    padding-inline: 1rem;
+    padding-inline: clamp(1rem, 0.429rem + 2.857vw, 3rem);
+    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 0.971rem + 1.143vw, 2rem);
+    color: #fdf0d5;
+    margin-bottom: 1rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow';
+    font-weight: 500;
+}
+
+.generatedRecipeIngredients {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(2, minmax(0, 400px));
+    justify-content: center;
+    column-gap: 1rem;
+    grid-auto-flow: column;
+}
+
+.generatedRecipeInstructions {
+    display: grid;
+    place-content: center;
+    gap: 0.5rem;
+    margin-inline: 1rem;
+    margin-inline: clamp(1rem, 0.714rem + 1.429vw, 2rem);
+}
+
+.list-group-item {
+    margin-bottom: 0.25rem;
+    margin-bottom: clamp(0.25rem, 0.036rem + 1.071vw, 1rem);
+    text-align: start;
+    padding: 0.5rem 0.5rem 0.5rem clamp(0.5rem, 0.214rem + 1.429vw, 1.5rem) !important;
+    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 0.6rem + 1vw, 1.5rem);
+    border-radius: 2px;
+    align-content: center;
+    font-family: 'Barlow';
+    font-weight: 400;
+}
+
+.generatedRecipeInstructions > li {
+    margin-bottom: 0.25rem;
+    text-align: start;
+    line-height: 1.5;
+    font-family: 'Barlow';
+    font-weight: 400;
+}
